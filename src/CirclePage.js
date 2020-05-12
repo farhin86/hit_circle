@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-// import logo from './logo.svg';
 import PropTypes from "prop-types";
 import "./CirclePage.css";
 
@@ -66,6 +65,7 @@ class CirclePage extends Component {
             circles.map((eachcircle, index) => {
               return (
                 <div
+                  key={index}
                   className={
                     autoSelectIndex === index + 1
                       ? "active-circle circle"
