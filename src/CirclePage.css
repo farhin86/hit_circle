@@ -1,0 +1,87 @@
+.circle-page-wrapper {
+  color: #000000;
+  font-family: Roboto;
+  line-height: 19px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.circle-page-header {
+  margin: 40px 0px 10px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+}
+.circle-page-subheader {
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.circle-page-scorebox {
+  width: 400px;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.circle-page-score-num {
+  margin-left: 1%;
+  text-align: center;
+  overflow: auto;
+  height: 24px;
+  width: 90px;
+  border: 1px solid rgba(0, 0, 0, 0.11);
+  line-height: 22px;
+}
+.circle-page-line {
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.11);
+  width: 400px;
+  margin: 10px 0px;
+}
+.circle-page-circle-wrapper {
+  width: 260px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.circle {
+  cursor: pointer;
+  margin: 2%;
+  width: 28px;
+  height: 28px;
+  background-color: #f0f3ff;
+  border: 2px solid rgba(0, 0, 0, 0.11);
+  border-radius: 30px;
+}
+.active-circle {
+  background-color: #009de6;
+  border: 2px solid #009de6;
+}
+.circle-page-button-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+.circle-page-play {
+  color: #ffffff;
+  background-color: #009de6;
+  width: 80px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.circle-page-stop {
+  color: #000000;
+  background-color: #f0f6ff;
+  width: 80px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  cursor: pointer;
+}
